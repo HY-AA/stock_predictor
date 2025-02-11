@@ -27,6 +27,7 @@ from strategy import optimized_triple_ensemble_trading
 
 # Load your dataframe (must include date, open, high, low, close, volume)
 result = optimized_triple_ensemble_trading(df)
+```
 
 ## Performance Evaluation
 
@@ -39,3 +40,8 @@ result = optimized_triple_ensemble_trading(df)
 **Max Drawdown**: Assesses portfolio risk exposure.
 
 ## Example Prediction for Tomorrow
+
+```python
+tomorrow_prediction = result['tomorrow_prediction']
+print(tomorrow_prediction)
+```
