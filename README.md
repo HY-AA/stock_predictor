@@ -6,27 +6,27 @@ This repository contains an optimized triple ensemble trading strategy that leve
 
 ## Features
 
-Deep Learning Models: Bi-directional LSTM and GRU for capturing sequential patterns.
+*Deep Learning Models*: Bi-directional LSTM and GRU for capturing sequential patterns.
 
-Machine Learning Model: Random Forest for feature-based classification.
+*Machine Learning Model*: Random Forest for feature-based classification.
 
-Feature Engineering: Incorporates RSI, MACD, Bollinger Bands, ATR, ADX, and other indicators.
+*Feature Engineering*: Incorporates RSI, MACD, Bollinger Bands, ATR, ADX, and other indicators.
 
-Ensemble Prediction: Weighted average of LSTM, GRU, and RF predictions for robust decision-making.
+*Ensemble Prediction*: Weighted average of LSTM, GRU, and RF predictions for robust decision-making.
 
-Bayesian Optimization: Optimizes buy and sell thresholds for better trading performance.
+*Bayesian Optimization*: Optimizes buy and sell thresholds for better trading performance.
 
-Backtesting Module: Simulates trading strategy performance on historical data.
+*Backtesting Module*: Simulates trading strategy performance on historical data.
 
-Risk Management: Implements position sizing and dynam
+*Risk Management*: Implements position sizing and dynam
 
 ## Usage
 
 ## Performance Evaluation
 
-Total Return: Measures the overall portfolio growth.
+*Total Return*: Measures the overall portfolio growth.
 
-Prediction Accuracy: Evaluates model classification performance.
+*Prediction Accuracy*: Evaluates model classification performance.
 
 Sharpe Ratio: Risk-adjusted return metric.
 
